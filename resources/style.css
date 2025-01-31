@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(127, 126, 128);
+}
+.header-li{
+    list-style: none;
+}
+.container{
+    border: 2px black solid;
+    border-radius: 1.5rem;
+    margin: 5px;
+    padding: 10px;
+    height: 95vh;
+    
+    background-color: rgb(211, 215, 218);
+    display: flex;
+    flex-direction: column;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.graph{
+    border: 1px rgb(245, 241, 241) solid;
+    width: 700px;
+    height: 500px;
+    background-color: rgb(143, 143, 146);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.numero{
+    background-color: rgb(88, 32, 22);
+    width: 10px;
+    
+}
+footer{
+    margin-top: 70px;
+    text-align: center;
+    
+}
