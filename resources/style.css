@@ -1,3 +1,6 @@
+*{
+    transition: 0.5s;
+}
 body{
     background-color: rgb(127, 126, 128);
 }
@@ -38,8 +41,10 @@ header{
 }
 .numero{
     background-color: rgb(88, 32, 22);
-    width: 10px;
-    
+    width: 10px;    
+}
+.selected{
+    background-color: rgb(13, 13, 145);
 }
 footer{
     margin-top: 70px;
