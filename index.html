@@ -4,43 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Algoritmos de Ordenação</title>
+    <title>VisualSort</title>
     
     <!-- stylesheets -->
     <link rel="stylesheet" href="/resources/styles/style.css">
+    <link rel="stylesheet" href="./resources/styles/mainpage.css">
 
-    <!-- para exibir funcções matemáticas -->
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Algoritmos de Ordenação</h1>
+            <h1>VisualSort</h1>
             <ul class="header-li">
-                <li><a href="#Inicio">Inicio</a></li>
-                <li><a href="#saiba-mais">Saiba mais</a></li>
+                <li><a href="#algoritmos">Algoritmos</a></li>
+                <li><a href="https://github.com/megghan/python_UFSCar/blob/main/PA2_Aula_3_Algoritmos_elementares_de_ordenacao.ipynb">Saiba mais</a></li>
             </ul>
          </header>
 
-        <main id="main" id="Inicio">
-            <h2 id="nome-algoritmo">Bubble Sort</h2>
-            <div class="graph">
-                
-            </div>
-            <div class="botoes">
-                <button id="gerar" onclick="generateListNumbers()">Gerar Dados</button>
-                <button id="ordenar" onclick="bubbleSort(listNumbers)">Ordenar!</button>
-            </div>
-            <h2 id="saiba-mais">Saiba mais</h2>
-            <div class="explica">
-                <p>O Algoritmo <span>bubble sort</span> é um dos mais simples algoritmos de ordenação.  A ideia é percorrer um conjunto de elementos diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência.</p>
+        <main id="main" >
+            <h2>Bem-vindo!</h2>
+            <div>
+                <p>Aqui, você pode visualizar passo a passo como diferentes algoritmos de ordenação organizam um conjunto de dados. Assista às barras se movimentarem e entenda de forma interativa como a lógica por trás dessas técnicas funciona.</p>
+                <h3>Mas antes... O que são algoritmos de ordenação?</h3>
+                <p >Algoritmos de ordenação são conjuntos de instruções lógicas usados para organizar dados em uma determinada ordem, como do menor para o maior ou do maior para o menor. Eles são fundamentais na ciência da computação e são amplamente utilizados em buscas, processamento de dados e otimização de sistemas.</p>
+                <p>Por trás de cada algoritmo, existe um conceito matemático que define sua eficiência e comportamento. Estruturas como permutação, comparações e séries numéricas influenciam o tempo necessário para organizar os dados, e a análise de complexidade algorítmica ajuda a entender o quão rápido (ou lento) cada método pode ser. Aqui, você pode visualizar como eles funcionam na prática e comparar seu desempenho em tempo real.</p>
+                <h3>Por que a ordenação é importante?</h3>
+                <p>A ordenação é um dos fundamentos da computação, sendo essencial para a organização e manipulação eficiente de dados. Muitos sistemas e aplicações dependem de algoritmos de ordenação para melhorar a velocidade e a precisão de suas operações, como em buscas, inteligência artificial, bancos de dados e até mesmo na exibição de resultados em sites e aplicativos. </p>
+                <p>Sem uma ordenação eficiente, tarefas simples, como encontrar um contato no celular ou carregar um feed de notícias, poderiam levar muito mais tempo. </p>
+                <p>Além disso, a ordenação é amplamente utilizada em otimizações matemáticas e na ciência de dados, permitindo análises mais rápidas e organizadas. Por isso, entender como diferentes algoritmos funcionam e escolher a melhor abordagem para cada situação pode fazer toda a diferença no desempenho de um sistema.</p>
                 <blockquote>
                     <hr />
-                    <p class="quote">Ordem de Complexidade Quadrática \(O (n^2)\)</p>
+                    <p class="quote">Agora escolha o algoritmo que deseja visualizar</p>
                     <hr />
                 </blockquote>                
-                <p>No melhor caso, o algoritmo executa \(n\) operações relevantes, onde \(n\) representa o número de elementos do vector. No pior caso, são feitas \(n^2\) operações. A complexidade desse algoritmo é de ordem quadrática. Por isso, ele não é recomendado para programas que precisem de velocidade e operem com quantidade elevada de dados.</p>
+                <div class="tipos-de-algoritmo" id="algoritmos">
+                    <div class="sorting"><a href="./bubble.html">Bubble Sort</a></div>
+                    <div class="sorting"><a href="./selection.html">Selection Sort</a></div>
+                    <div class="sorting"><a href="./insertion.html">Insertion Sort</a></div>
+                    <div class="sorting"><a href="./quick.html">Quick Sort</a></div>
+                    <div class="sorting"><a href="./merge.html">Merge Sort</a></div>
+                    
+                </div>
+
 
             </div>
             

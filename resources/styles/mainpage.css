@@ -1,0 +1,22 @@
+*{
+    text-align: center;
+}
+.tipos-de-algoritmo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sorting{
+    border: 2px rgb(106, 90, 205) solid;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: rgb(240, 255, 255);
+    background-color: rgb(245, 237, 247);
+}
+
+.sorting:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    background-color: rgb(179, 168, 168);
+}

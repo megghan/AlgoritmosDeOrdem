@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>VisualSort - Insertion</title>
+    
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/resources/styles/style.css">
+
+    <!-- para exibir funcções matemáticas -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VisualSort</h1>
+            <ul class="header-li">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="#saiba-mais">Saiba mais</a></li>
+            </ul>
+         </header>
+
+        <main id="main">
+            <h2 id="nome-algoritmo">Insertion Sort</h2>
+            <div class="graph">
+                
+            </div>
+            <div class="botoes">
+                <button id="gerar" onclick="generateListNumbers()">Gerar Dados</button>
+                <button id="ordenar" onclick="bubbleSort(listNumbers)">Ordenar!</button>
+            </div>
+            <h2 id="saiba-mais">Saiba mais</h2>
+            <div class="explica">
+                <p>O Algoritmo <span>bubble sort</span> é um dos mais simples algoritmos de ordenação.  A ideia é percorrer um conjunto de elementos diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência.</p>
+                <blockquote>
+                    <hr />
+                    <p class="quote">Ordem de Complexidade Quadrática \(O (n^2)\)</p>
+                    <hr />
+                </blockquote>                
+                <p>No melhor caso, o algoritmo executa \(n\) operações relevantes, onde \(n\) representa o número de elementos do vector. No pior caso, são feitas \(n^2\) operações. A complexidade desse algoritmo é de ordem quadrática. Por isso, ele não é recomendado para programas que precisem de velocidade e operem com quantidade elevada de dados.</p>
+
+            </div>
+            
+        </main>
+        <footer>@Megghan | Me encontre no <a href="https://github.com/megghan">github</a>!  </footer>
+    </div>
+
+    
+    <!-- scripts principais -->
+    <script src="./resources/scripts/engine.js" defer></script>
+</body>
+</html>
