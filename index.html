@@ -13,21 +13,30 @@
         <header>
             <h1>Algoritmos de Ordenação</h1>
             <ul class="header-li">
-                <li >Inicio</li>
-                <li>Saiba mais</li>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#saiba-mais">Saiba mais</a></li>
             </ul>
          </header>
 
-        <main id="main">
+        <main id="main" id="Inicio">
             <h2 id="nome-algoritmo">Bubble Sort</h2>
             <div class="graph">
                 
             </div>
-            <button id="gerar" onclick="generateListNumbers()">Gerar Dados</button>
-            <button id="ordenar" onclick="bubbleSort(listNumbers)">Ordenar!</button>
+            <div class="botoes">
+                <button id="gerar" onclick="generateListNumbers()">Gerar Dados</button>
+                <button id="ordenar" onclick="bubbleSort(listNumbers)">Ordenar!</button>
+            </div>
+            <!-- <h2 id="saiba-mais">Saiba mais</h2>
+            <div class="explica">
+                <p>O Algoritmo bubble sort...</p>
+                <p>Complexidade...</p>
+                <p>Big O</p>
+
+            </div> -->
             
         </main>
-        <footer>@Megghan | Me encontre no github <a href="https://github.com/megghan">aqui</a>!  </footer>
+        <footer>@Megghan | Me encontre no <a href="https://github.com/megghan">github</a>!  </footer>
     </div>
     
     <script src="./resources/script.js" defer></script>
