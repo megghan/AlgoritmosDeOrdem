@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Algoritmos de ordenação</title>
+    <title>Algoritmos de Ordenação</title>
+    
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/resources/styles/style.css">
 
-    <link rel="stylesheet" href="/resources/style.css">
+    <!-- para exibir funcções matemáticas -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -27,18 +32,24 @@
                 <button id="gerar" onclick="generateListNumbers()">Gerar Dados</button>
                 <button id="ordenar" onclick="bubbleSort(listNumbers)">Ordenar!</button>
             </div>
-            <!-- <h2 id="saiba-mais">Saiba mais</h2>
+            <h2 id="saiba-mais">Saiba mais</h2>
             <div class="explica">
-                <p>O Algoritmo bubble sort...</p>
-                <p>Complexidade...</p>
-                <p>Big O</p>
+                <p>O Algoritmo <span>bubble sort</span> é um dos mais simples algoritmos de ordenação.  A ideia é percorrer um conjunto de elementos diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência.</p>
+                <blockquote>
+                    <hr />
+                    <p class="quote">Ordem de Complexidade Quadrática \(O (n^2)\)</p>
+                    <hr />
+                </blockquote>                
+                <p>No melhor caso, o algoritmo executa \(n\) operações relevantes, onde \(n\) representa o número de elementos do vector. No pior caso, são feitas \(n^2\) operações. A complexidade desse algoritmo é de ordem quadrática. Por isso, ele não é recomendado para programas que precisem de velocidade e operem com quantidade elevada de dados.</p>
 
-            </div> -->
+            </div>
             
         </main>
         <footer>@Megghan | Me encontre no <a href="https://github.com/megghan">github</a>!  </footer>
     </div>
+
     
-    <script src="./resources/script.js" defer></script>
+    <!-- scripts principais -->
+    <script src="./resources/scripts/engine.js" defer></script>
 </body>
 </html>

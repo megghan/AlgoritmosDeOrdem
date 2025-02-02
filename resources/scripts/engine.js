@@ -41,8 +41,8 @@ async function bubbleSort(listNumbers) {
     for(let i=0; i<totalNumbers; i++){
         for(let j=0; j<totalNumbers-i-1; j++){
 
-            elementos[j].style.backgroundColor = "red";
-            elementos[j + 1].style.backgroundColor = "red";
+            elementos[j].style.backgroundColor = "rgb(134, 44, 218)";
+            elementos[j + 1].style.backgroundColor = "rgb(134, 44, 218)";
             await new Promise(resolve => setTimeout(resolve, 500));
 
             if( listNumbers[j] > listNumbers[j+1]){

@@ -74,6 +74,28 @@ button{
     border-radius: 15px;
 }
 button:hover{
-    background-color: rgb(134, 44, 218);;
+    background-color: rgb(134, 44, 218);
 
+}
+.explica{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-auto-columns: 1fr;
+    align-items: center;
+    text-align: justify;
+
+}
+hr {
+    margin: 1.5rem 0;
+    border: 1px solid rgba(120, 120, 120, 0.6);
+  }
+.quote{
+    text-align: center;
+    font-weight: bold;
+  }
+span{
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-style: italic;
 }
