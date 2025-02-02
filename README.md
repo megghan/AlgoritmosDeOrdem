@@ -5,6 +5,7 @@ Este projeto permite visualizar o funcionamento de vários algoritmos de ordena�
 ## Funcionalidades 🎯
 
 🔜 Escolha entre diferentes tipos de algoritmos
+
 ✔️ Interface simples e interativa
 
 
@@ -13,13 +14,18 @@ Este projeto permite visualizar o funcionamento de vários algoritmos de ordena�
 
 ## Algoritmos Implementados
 ✔️ Bubble Sort
+
 🔜 Selection Sort
+
 🔜 Insertion Sort
+
 🔜 Quick Sort
+
 🔜 Merge Sort
 
 ## Próximos passos
 Integrar API para buscar dados reais.
+
 Adicionar outros algoritmos
 
 ## Técnologias utilizadas
